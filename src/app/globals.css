@@ -1,3 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+
+/* @keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+} */
+/* .fade-in-out {
+  opacity: 0;
+  animation: fadeIn 5s linear infinite alternate;
+} */
