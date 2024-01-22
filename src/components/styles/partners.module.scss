@@ -1,0 +1,40 @@
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 0;
+  gap: 2rem;
+
+  h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .partners_image {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+
+    img {
+      filter: grayscale(100%);
+      transition: 0.3s;
+
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+  }
+
+  @media screen and (max-width: 1257px) {
+    .partners_image {
+      flex-direction: column;
+      gap: 2rem;
+
+      img {
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
