@@ -7,8 +7,8 @@ import "react-toastify/dist/ReactToastify.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Oku| Powered by Metering Protocol",
-  description: "Safe and Fast Energy Meter Subscription",
+  title: "Oku| Powered by M3tering Protocol",
+  description: "payment infrastructure powered by M3tering Protocol",
 };
 
 export default function RootLayout({
