@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar_container}>
-      <div className={styles.navbar}>
+    <nav className={styles.navbar}>
+      <Link href="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="55"
@@ -20,11 +20,12 @@ const Navbar = () => {
             fill="white"
           />
         </svg>
-        <Link href="https://demo.kodesage.xyz/" target="_blank">
-          <button type="button">Get started</button>
-        </Link>
-      </div>
-    </div>
+      </Link>
+
+      <Link href="https://demo.kodesage.xyz/" target="_blank">
+        <button type="button">Get started</button>
+      </Link>
+    </nav>
   );
 };
 
